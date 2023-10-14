@@ -15,3 +15,12 @@ function docker-build-image() {
 function docker-run-container() {
     docker run -it -d ubuntu-station
 }
+
+function help-menu() {
+    echo "To build an image use:"
+    echo "docker-build-image"
+    echo "To run a container from the built image use:"
+    echo "docker-run-container"
+}
+
+help-menu
