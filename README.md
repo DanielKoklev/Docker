@@ -1,2 +1,2 @@
 # Docker
-Docker examples
+Simple Docker examples for building docker images as ubuntu work station.
