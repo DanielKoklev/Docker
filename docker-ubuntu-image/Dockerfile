@@ -22,7 +22,7 @@ RUN apt-get update                                               && \
     neovim sudo libcurl4-openssl-dev libssl-dev curl locate         \
     libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential       \
     libgmp-dev zlib1g-dev libffi-dev openssh-server libldns-dev     \
-    wget net-tools
+    wget net-tools make
 
 # Adding the same user as the images is built with
 USER ${USER_NAME}
